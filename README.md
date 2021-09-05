@@ -1,4 +1,6 @@
-<h2 align="centre">SEMPAK-MOVIE</h2>
+<img src="https://img.shields.io/badge/🅢︎🅔︎🅜︎🅟︎🅐︎🅚︎%20🅜︎🅞︎🅥︎🅘︎🅔︎-black?style=flat&logo=Heroku" width="325" height="50.100" />
+
+
 
 telegram bot project for streaming video on telegram video chat, powered by [tgcalls](https://github.com/MarshalX/tgcalls) and [pyrogram](https://github.com/pyrogram/pyrogram)
 
