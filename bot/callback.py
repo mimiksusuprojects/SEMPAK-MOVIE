@@ -17,7 +17,7 @@ async def cbguide(_, query: CallbackQuery):
 
 📝 **note: stream & stop command can only be executed by group admin only!**
 
-⚡ __Maintained by Veez Project Team__""",
+⚡ __Maintained by Sempak besi__""",
     reply_markup=InlineKeyboardMarkup(
       [[
         InlineKeyboardButton(
@@ -38,12 +38,12 @@ async def cbstart(_, query: CallbackQuery):
                              "🌐 Terms & Condition", callback_data="cbinfo")
                        ],[
                           InlineKeyboardButton(
-                             "💬 Group", url="https://t.me/VeezSupportGroup"),
+                             "💬 Group", url="https://t.me/ms_aliansi"),
                           InlineKeyboardButton(
-                             "📣 Channel", url="https://t.me/levinachannel")
+                             "📣 Channel", url="https://t.me/msstory_ch")
                        ],[
                           InlineKeyboardButton(
-                             "👩🏻‍💻 Developer", url="https://t.me/dlwrml")
+                             "👩🏻‍💻 Developer", url="https://t.me/signatureofthehero")
                        ],[
                           InlineKeyboardButton(
                              "📚 All Command List", callback_data="cblist")
@@ -62,7 +62,7 @@ async def cbinfo(_, query: CallbackQuery):
 
 👨🏻‍💻 __Thanks to the developers who participated in the development of this bot, the list of devs can be seen below:__
 
-👩🏻‍✈️ » [Levina Shavila](https://github.com/levina-lab)
+👩🏻‍✈️ » [SEMPAK-MOVIE](https://github.com/mimiksusuprojects)
 🤵🏻 » [Sammy-XD](https://github.com/Sammy-XD)
 👩🏻‍✈️ » [Achu Biju](https://github.com/Achu2234)
 🤵🏻 » [Mr.Zxce3](https://github.com/Zxce3)
@@ -73,7 +73,7 @@ __This bot licensed under GNU-GPL 3.0 License__""",
     reply_markup=InlineKeyboardMarkup(
       [[
         InlineKeyboardButton(
-          "🏡 Go Back", callback_data="cbstart")
+          "☠️ Go Back", callback_data="cbstart")
       ]]
     ),
     disable_web_page_preview=True
@@ -82,7 +82,7 @@ __This bot licensed under GNU-GPL 3.0 License__""",
 @Client.on_callback_query(filters.regex("cblist"))
 async def cblist(_, query: CallbackQuery):
   await query.edit_message_text(
-    f"""📚 All Command List:
+    f"""☠️ All Command List:
 
 » /vstream (reply to video or file) - to stream video
 » /vstop - end the video streaming
@@ -90,7 +90,7 @@ async def cblist(_, query: CallbackQuery):
 » /vsong (video name) - download video from YT
 » /lyric (song name) - lyric scrapper
 
-🎊 FUN CMD:
+☠️ FUN CMD:
 
 » /asupan - check it by yourself
 » /chika - check it by yourself
@@ -98,7 +98,7 @@ async def cblist(_, query: CallbackQuery):
 » /truth - check it by yourself
 » /dare - check it by yourself
 
-🔰 EXTRA CMD:
+☠️ EXTRA CMD:
 
 » /tts (reply to text) - text to speech
 » /alive - check bot alive status
@@ -106,11 +106,11 @@ async def cblist(_, query: CallbackQuery):
 » /uptime - check bot uptime status
 » /sysinfo - check bot system information
 
-⚡ __Maintained by Veez Project Team__""",
+☠️ __Maintained by Sempak Besi__""",
     reply_markup=InlineKeyboardMarkup(
       [[
         InlineKeyboardButton(
-          "🏡 Go Back", callback_data="cbstart")
+          "ALIANSI MIMIK SUSU", callback_data="cbstart")
       ]]
     ))
 
