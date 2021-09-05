@@ -1,15 +1,15 @@
 {
-    "name": "Veez Video Stream Bot",
-    "description": "bot to stream video on telegram video chat, powered by pytgcalls and pyrogram",
-    "logo": "https://telegra.ph/file/103a5208bb1698a8b33de.png",
+    "name": "SEMPAK-MOVIE",
+    "description": "bot SEMPAK-MOVIE on telegram video chat, powered by pytgcalls and pyrogram",
+    "logo": "https://telegra.ph/file/5e183c7f319f42d68834d.jpg",
     "keywords": [
         "pytgcalls",
         "telegram bot",
         "video stream"
     ],
-    "website": "https://t.me/levinachannel",
-    "repository": "https://github.com/levina-lab/video-stream",
-    "success_url": "https://t.me/dlwrml",
+    "website": "https://t.me/ms_aliansi",
+    "repository": "https://github.com/mimiksusuprojects/SEMPAK-MOVIE",
+    "success_url": "https://t.me/Signatureofthehero",
     "env": {
         "API_ID": {
             "description": "your APP_ID from my.telegram.org",
