@@ -84,7 +84,7 @@ async def alive(_, m: Message):
                         "✨ Group", url=f"https://t.me/ms_aliansi"
                     ),
                     InlineKeyboardButton(
-                        "📣 Channel", url=f"https://t.me/.sstory_ch"
+                        "📣 Channel", url=f"https://t.me/.story_ch"
                     )
                 ]
             ]
@@ -98,7 +98,7 @@ async def ping_pong(_, m: Message):
     m_reply = await m.reply_text("pinging...")
     delta_ping = time() - start
     await m_reply.edit_text(
-        "🏓 `PONG!!`\n"
+        "☠️ `PONG!!`\n"
         f"⚡️ `{delta_ping * 1000:.3f} ms`"
     )
 
