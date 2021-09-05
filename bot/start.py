@@ -84,7 +84,10 @@ async def alive(_, m: Message):
                         "✨ Group", url=f"https://t.me/ms_aliansi"
                     ),
                     InlineKeyboardButton(
-                        "📣 Channel", url=f"https://t.me/.story_ch"
+                        "📣 Channel", url=f"https://t.me/msstory_ch"
+                    ),
+                    InlineKeyboardButton(
+                        "☠️ Owner", url=f"https://t.me/signatureofthehero"
                     )
                 ]
             ]
