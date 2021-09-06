@@ -28,7 +28,7 @@ async def cbguide(_, query: CallbackQuery):
 
 @Client.on_callback_query(filters.regex("cbstart"))
 async def cbstart(_, query: CallbackQuery):
-  await query.edit_message_text(f"✨ **Hello there, I am a telegram video streaming bot.**\n\n💭 **I was created to stream videos in group video chats easily.**\n\n❔ **To find out how to use me, please press the help button below** 👇🏻",
+  await query.edit_message_text(f"✨ **Halo, saya adalah bot video streaming telegram yang dibuat oleh sempak besi.**\n\n💭 **Gausah nonton bokep ya tolol.**\n\n❔ **mau pake ya izin lah dongo, belagu bat lu wkwkw. Join sini ke mimik susu** 👇🏻",
                                 reply_markup=InlineKeyboardMarkup(
                        [[
                           InlineKeyboardButton(
@@ -38,12 +38,12 @@ async def cbstart(_, query: CallbackQuery):
                              "🌐 Terms & Condition", callback_data="cbinfo")
                        ],[
                           InlineKeyboardButton(
-                             "💬 Group", url="https://t.me/ms_aliansi"),
+                             "💬 Aliansi mimik susu", url="https://t.me/ms_aliansi"),
                           InlineKeyboardButton(
-                             "📣 Channel", url="https://t.me/msstory_ch")
+                             "📣 ms story", url="https://t.me/msstory_ch")
                        ],[
                           InlineKeyboardButton(
-                             "👩🏻‍💻 Developer", url="https://t.me/signatureofthehero")
+                             "☠️ Developer☠️", url="https://t.me/signatureofthehero")
                        ],[
                           InlineKeyboardButton(
                              "📚 All Command List", callback_data="cblist")
